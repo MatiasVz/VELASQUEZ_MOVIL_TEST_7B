@@ -6,3 +6,12 @@ export interface Vehicle {
   ano: string;
   tipoGasolina: string;
 }
+
+export const emptyVehicle: Vehicle = {
+  marca: '',
+  modelo: '',
+  placa: '',
+  nombreDueno: '',
+  ano: '',
+  tipoGasolina: '',
+};
