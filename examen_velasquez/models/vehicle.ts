@@ -1,4 +1,4 @@
-export interface Vehicle {
+export type Vehicle = {
   marca: string;
   modelo: string;
   placa: string;
